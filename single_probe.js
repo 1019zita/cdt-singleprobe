@@ -519,7 +519,7 @@ function endBlock() {
         completedTrials: stimData.length
     });
 
-    if (currentBlock < prefs.numBlocks && !prefs.debugMode) {
+    if (currentBlock < prefs.numBlocks && !p.debugMode) {
         switchScreen('break');
         experimentPhase = 'break';
 
